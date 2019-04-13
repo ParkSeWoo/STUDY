@@ -1,0 +1,9 @@
+dependencies {
+
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'sample.EurekaServerApplication'
+    }
+}

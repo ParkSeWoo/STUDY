@@ -1,0 +1,12 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+    }
+}
+rootProject.name = 'zuul'
+include 'common-support'
+include 'eureka-server'
+include 'product-service'
+include 'order-service'
+include 'api-gateway'
+include 'web-client'
