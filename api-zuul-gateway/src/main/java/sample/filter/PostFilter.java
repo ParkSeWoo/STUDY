@@ -9,7 +9,7 @@ public class PostFilter extends ZuulFilter  {
     private static Logger log = LoggerFactory.getLogger(PostFilter.class);
     @Override
     public String filterType() {
-        return "TEST POST";
+        return "post";
     }
 
     @Override

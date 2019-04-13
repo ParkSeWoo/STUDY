@@ -16,7 +16,7 @@ import sample.filter.RouteFilter;
 @EnableZuulProxy
 class ApiZuulGatewayServerApplication {
 
-    /*@Bean
+    @Bean
     public PreFilter preFilter() {
         return new PreFilter();
     }
@@ -31,7 +31,7 @@ class ApiZuulGatewayServerApplication {
     @Bean
     public RouteFilter routeFilter() {
         return new RouteFilter();
-    }*/
+    }
 
     public static void main(String[] args) {
         SpringApplication.run(ApiZuulGatewayServerApplication.class, args);

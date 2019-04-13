@@ -9,7 +9,7 @@ public class ErrorFilter extends ZuulFilter {
     private static Logger log = LoggerFactory.getLogger(ErrorFilter.class);
     @Override
     public String filterType() {
-        return "TEST ERROR";
+        return "error";
     }
 
     @Override

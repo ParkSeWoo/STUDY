@@ -12,7 +12,7 @@ public class PreFilter extends ZuulFilter {
     private static Logger log = LoggerFactory.getLogger(PreFilter.class);
     @Override
     public String filterType() {
-        return "TEST PRE";
+        return "pre";
     }
 
     @Override
@@ -31,8 +31,6 @@ public class PreFilter extends ZuulFilter {
         HttpServletRequest request = ctx.getRequest();
         log.info("Request Method : " + request.getMethod() );
         log.info("Request URL : " +  request.getRequestURL().toString());
-        System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
-
 
         return null;
     }

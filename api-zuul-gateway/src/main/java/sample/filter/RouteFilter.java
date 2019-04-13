@@ -10,7 +10,7 @@ public class RouteFilter extends ZuulFilter {
     private static Logger log = LoggerFactory.getLogger(RouteFilter.class);
     @Override
     public String filterType() {
-        return "TEST ROUTE";
+        return "route";
     }
 
     @Override
