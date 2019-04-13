@@ -1,6 +1,6 @@
 spring:
   application:
-    name: api-zuul-gateway
+    name: api-gateway
 zuul:
   prefix: /api
   routes:
@@ -9,7 +9,7 @@ zuul:
       serviceId: order-service
     products:
       path: /products/**
-      url: http://localhost:8000/**
+      url: http://localhost:8000/
 server:
   port: 8888
 eureka:
