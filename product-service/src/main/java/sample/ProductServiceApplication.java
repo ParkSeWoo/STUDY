@@ -24,7 +24,7 @@ public class ProductServiceApplication {
         return new Car(name, "hatchback", "chevrolet");
     }
 
-    @RequestMapping(value = "/products")
+    @RequestMapping(value = "/print")
     public String ProductResource () {
         return "hello  <strong style=\"color: red;\"> Product Service </strong> Responsed on : " + new Date();
     }
