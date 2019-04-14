@@ -1,5 +1,5 @@
-
 rootProject.name = 'zuul'
+
 include 'common-support'
 include 'eureka-server'
 include 'product-service'
