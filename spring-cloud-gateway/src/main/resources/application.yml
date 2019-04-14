@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: spring-cloud-gateway
+server:
+  port: 9000
+
+#actuator
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+logging:
+  level:
+    org.springframework.cloud.gateway: TRACE
