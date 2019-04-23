@@ -119,3 +119,15 @@ project(':spring-cloud-gateway') {
         compile group: 'org.springframework.boot', name: 'spring-boot-starter-security', version:'2.1.1.RELEASE'
     }
 }
+
+project(':spring-cloud-admin') {
+    dependencies {
+        //  compile project(':zuul')
+    }
+}
+
+project(':spring-cloud-authentication') {
+    dependencies {
+        //  compile project(':zuul')
+    }
+}
